@@ -14,4 +14,4 @@ Jul 03 14:30:59 ubuntu-focal systemd[1]: Started OpenBSD Secure Shell server.
 Jul 03 14:31:01 ubuntu-focal sshd[723]: Accepted publickey for vagrant from 10.0.2.2 port 49930 ssh2: RSA SHA256:mE2JhnIOKbKl9p5IfDbDKYDECsXMjKD/eXnjhQLS244
 Jul 03 14:31:01 ubuntu-focal sshd[723]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
 Jul 03 14:32:06 ubuntu-focal sshd[2020]: Accepted publickey for vagrant from 10.0.2.2 port 49932 ssh2: RSA SHA256:mE2JhnIOKbKl9p5IfDbDKYDECsXMjKD/eXnjhQLS244
-Jul 03 14:32:06 ubuntu-focal sshd[2020]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)                                                                                it just prints the core operating system name
+Jul 03 14:32:06 ubuntu-focal sshd[2020]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)                                                                                it just prints the core operating system name Linux
