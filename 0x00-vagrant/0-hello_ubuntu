@@ -1,1 +1,17 @@
-when we run uname command without any options, it just prints the core opeating system name
+     Active: [0;1;32mactive (running)[0m since Mon 2023-07-03 14:30:59 UTC; 16min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 697 (sshd)
+      Tasks: 1 (limit: 1116)
+     Memory: 6.5M
+     CGroup: /system.slice/ssh.service
+             └─697 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups
+
+Jul 03 14:30:58 ubuntu-focal systemd[1]: Starting OpenBSD Secure Shell server...
+Jul 03 14:30:59 ubuntu-focal sshd[697]: Server listening on 0.0.0.0 port 22.
+Jul 03 14:30:59 ubuntu-focal sshd[697]: Server listening on :: port 22.
+Jul 03 14:30:59 ubuntu-focal systemd[1]: Started OpenBSD Secure Shell server.
+Jul 03 14:31:01 ubuntu-focal sshd[723]: Accepted publickey for vagrant from 10.0.2.2 port 49930 ssh2: RSA SHA256:mE2JhnIOKbKl9p5IfDbDKYDECsXMjKD/eXnjhQLS244
+Jul 03 14:31:01 ubuntu-focal sshd[723]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)
+Jul 03 14:32:06 ubuntu-focal sshd[2020]: Accepted publickey for vagrant from 10.0.2.2 port 49932 ssh2: RSA SHA256:mE2JhnIOKbKl9p5IfDbDKYDECsXMjKD/eXnjhQLS244
+Jul 03 14:32:06 ubuntu-focal sshd[2020]: pam_unix(sshd:session): session opened for user vagrant by (uid=0)                                                                                it just prints the core operating system name
